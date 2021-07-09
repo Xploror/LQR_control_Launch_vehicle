@@ -59,7 +59,10 @@ Here we can see that V being a constant variable we used it to decrease the weig
 
 We got the results as expected ! Though the theta stability got little disturbed but still it stabilizes pretty good. Note, that for both the cases Q_matrix_drift was always symmetric, this is because Q has to be symmetric as both X and X transpose deals with it.
 
-4. **runfg.bat** - This is a windows batch file which will command flightgear to directly open a custom environment with custom model given in this file, for this refer to the references given which is a very good explanation! Also after the flightgear is opened when we start the simulink, flightgear responds to it on the 5502 port for me and works pretty good.
+4. **runfg.bat** - This is a windows batch file which will command flightgear to directly open a custom environment with custom model given in this file, for this refer to the references given which is a very good explanation! Also after the flightgear is opened when we start the simulink, flightgear responds to it on the 5502 port for me and works pretty good. Here in the bat file, Vostok-1 model is used and airport KSEA is used.
+
+<img src="https://user-images.githubusercontent.com/69386934/125077659-f99b5400-e0de-11eb-9fb5-e1e4b6a72024.png" width="400" height="400">          <img src="https://user-images.githubusercontent.com/69386934/125077670-fbfdae00-e0de-11eb-8d1e-e0e353630e05.png" width="400" height="400">
+
 
 ## References 
 
